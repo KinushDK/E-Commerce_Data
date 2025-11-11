@@ -12,7 +12,7 @@ This fragmented data makes it difficult to get a holistic view of sales performa
 # **Solution**
 This ETL pipeline extracts data from each source, transforms it into a consistent format, and loads it into a data warehouse for analysis and reporting.
 
-**Technologies**
+# **Technologies**
 ⦁	Python
 ⦁	pandas (data manipulation)
 ⦁	SQLAlchemy (database interaction)
@@ -20,19 +20,19 @@ This ETL pipeline extracts data from each source, transforms it into a consisten
 ⦁	Project Structure
 ⦁	ETL_Data_Pipeline_For_Retail_Store/
 
-**Project Structure**
+# **Project Structure**
 .venv/
 data.csv
 data.ipynb
 README.md
 
 
-Implementation
+# Implementation
 Extract
 Data is extracted from each source using appropriate libraries (e.g., pandas for CSV, SQLAlchemy for databases).
 
-Transform
+# Transform
 Data is cleaned, standardized, and transformed as needed. Reusable functions can be defined for specific transformations.
 
-Load
+# Load
 Transformed data is loaded into the data warehouse using SQLAlchemy.
