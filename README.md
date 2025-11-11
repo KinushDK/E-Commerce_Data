@@ -43,4 +43,5 @@ Data is cleaned, standardized, and transformed as needed. Reusable functions can
 
 # Load
 Transformed data is loaded into the data warehouse using SQLAlchemy.
+Created a Task Schedular to run the python script so as to update the data warehouse.
 
