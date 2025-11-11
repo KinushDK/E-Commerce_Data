@@ -14,6 +14,7 @@ This ETL pipeline extracts data from each source, transforms it into a consisten
 
 # **Technologies**
 ⦁	Python
+
 ⦁	pandas (data manipulation)
 ⦁	SQLAlchemy (database interaction)
 ⦁	Airflow (workflow orchestration)
