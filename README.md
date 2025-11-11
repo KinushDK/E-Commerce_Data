@@ -5,8 +5,11 @@ This repository implements an ETL (Extract, Transform, Load) pipeline to integra
 A retail company has sales data scattered across different systems:
 
 ⦁	Point-of-sale (POS) systems (flat files)
+
 ⦁	Online store database
+
 ⦁	Customer relationship management (CRM) system
+
 This fragmented data makes it difficult to get a holistic view of sales performance, customer behavior, and inventory management.
 
 # **Solution**
@@ -15,7 +18,7 @@ This ETL pipeline extracts data from each source, transforms it into a consisten
 # **Technologies**
 ⦁	Python
 
-⦁	pandas (data manipulation)
+⦁	Pandas (data manipulation)
 ⦁	SQLAlchemy (database interaction)
 ⦁	Airflow (workflow orchestration)
 ⦁	Project Structure
